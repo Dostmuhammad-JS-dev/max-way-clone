@@ -1,0 +1,36 @@
+.End {
+	margin-top: 90px;
+}
+.End_title {
+	display: flex;
+	align-items: center;
+}
+
+.End_link {
+	width: 100%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.futer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.futer_right img {
+	color: rebeccapurple;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin: 20px;
+}
+.futer_left p {
+	color: #aba3b8;
+}

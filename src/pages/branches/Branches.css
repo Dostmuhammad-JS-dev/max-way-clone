@@ -1,0 +1,30 @@
+.Branches_title {
+	margin-top: 40px;
+}
+.Branches_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.Branches_btn button {
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+}
+.lict {
+	margin-right: 25px;
+}
+
+.Branches_card {
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px 10px #e8d6d6;
+	margin-top: 50px;
+	width: 700px;
+	height: 220px;
+}
+.Branches_time {
+	color: rgb(30, 255, 0);
+}

@@ -1,0 +1,144 @@
+.w-100 {
+	border-radius: 20px;
+	height: 550px;
+}
+.app {
+	margin: 30px 0;
+}
+.app .slider-item {
+	color: rgb(26, 6, 6);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 17px;
+	letter-spacing: 0%;
+	cursor: pointer;
+	margin: 0 10px;
+	padding: 0.75rem 1rem;
+	border-radius: 0.75rem;
+	display: flex;
+	align-items: center;
+}
+.app .slider-item:hover {
+	color: rgb(204, 94, 50);
+	opacity: 0.9;
+	background-color: #f1eff4;
+	color: #51267d;
+}
+.slick-slide {
+	width: auto !important;
+}
+.New_card_head p {
+	display: -webkit-box;
+	cursor: pointer;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.card_img {
+	width: 100%;
+	height: 220px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	cursor: pointer;
+}
+.New_card_head {
+	margin: 10px 20px;
+}
+.New_card_head p {
+	display: -webkit-box;
+	--webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.New_card_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Card_btn {
+	border-radius: 14px;
+	padding: 5px 20px;
+	align-items: center;
+	color: #fff;
+	background-color: #7e5fa6;
+	border: none;
+	outline: none;
+}
+.Box {
+	margin-top: 20px;
+}
+.slick-next:before,
+.slick-prev:before {
+	color: #7e5fa6;
+}
+.modal {
+	width: 100%;
+	height: 100%;
+	/* position: fixed; */
+	/* top: 0; */
+	/* left: 0; */
+	background-color: #00000073;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 99;
+}
+.modal_title {
+	width: 800px;
+	height: 300px;
+	background-color: #fff;
+	border-radius: 12px;
+}
+.modal_flex {
+	/* display: flex; */
+	padding: 30px;
+	position: relative;
+}
+.modal_main {
+	gap: 50px;
+	display: flex;
+}
+
+.modal_img {
+	width: 200px;
+	align-items: center;
+	display: flex;
+	height: 200px;
+}
+.modal_exit {
+	display: flex;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+}
+.modal_text {
+	position: absolute;
+	top: 20px;
+	right: 40px;
+}
+.couter_flextwo {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+	border: solid 1px rebeccapurple;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.couter_btn {
+	width: 100px;
+	height: 40px;
+	border-radius: 15px;
+	color: #fff;
+	background-color: rebeccapurple;
+	cursor: pointer;
+}
+.counter_flex {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}

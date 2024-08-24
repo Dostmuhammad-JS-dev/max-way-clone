@@ -1,0 +1,110 @@
+.shop {
+	display: flex;
+	gap: 30px;
+	margin-top: 40px;
+}
+
+.shop_lef {
+	width: 900px;
+	height: 200px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 20px rgb(216, 198, 235);
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+}
+.Packet_flex {
+	display: flex;
+}
+.shop_lef_title {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 900px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 20px rgb(216, 198, 235);
+}
+.shop_lef_title_sub {
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border-radius: 12px;
+	border-bottom: 1px solid beige;
+}
+.krafttwo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.shop_img {
+	width: 100px;
+	height: 100px;
+	border-radius: 12px;
+	display: block;
+}
+.Packet_title {
+	width: 300px;
+}
+.Packet_flex {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.countertwo {
+	width: 130px;
+}
+.counter_flexp {
+	display: flex;
+	cursor: pointer;
+	/* align-items: center; */
+	justify-content: space-around;
+	width: 100px;
+	/* min-width: 100px; */
+	/* max-width: 100px; */
+
+	border: solid 2px slateblue;
+	border-radius: 20px;
+}
+.counter_flexp h5 {
+	display: flex;
+
+	/* align-items: center; */
+}
+.Counter_flex {
+	display: flex;
+
+	align-items: center;
+	gap: 30px;
+}
+
+.Shop_rghit {
+	padding: 40px;
+
+	width: 600px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 20px rgb(216, 198, 235);
+}
+.Total_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pay_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Total_tex {
+	display: flex;
+	flex-direction: column;
+}
+.Total_btn {
+	background-color: slateblue;
+	color: aliceblue;
+	border-radius: 12px;
+	padding: 8px 20px;
+	border: none;
+}

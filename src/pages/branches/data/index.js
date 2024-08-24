@@ -1,0 +1,42 @@
+export const branchesDataBaza = [
+	{
+		id: 'BERUNIY',
+		name: 'MAX WAY BERUNIY',
+		manzil: 'улица Беруни, 47, Ташкент',
+		vaqt: 'Closed until 10:00',
+		kun: 'Mon-Sun: 10:00-23:00',
+		Phone: '+998712005400',
+	},
+	{
+		id: 'BERUNIY',
+		name: 'MAX WAY BERUNIY',
+		manzil: 'улица Беруни, 47, Ташкент',
+		vaqt: 'Closed until 10:00',
+		kun: 'Mon-Sun: 10:00-23:00',
+		Phone: '+998712005400',
+	},
+	{
+		id: 'BERUNIY',
+		name: 'MAX WAY BERUNIY',
+		manzil: 'улица Беруни, 47, Ташкент',
+		vaqt: 'Closed until 10:00',
+		kun: 'Mon-Sun: 10:00-23:00',
+		Phone: '+998712005400',
+	},
+	{
+		id: 'BERUNIY',
+		name: 'MAX WAY BERUNIY',
+		manzil: 'улица Беруни, 47, Ташкент',
+		vaqt: 'Closed until 10:00',
+		kun: 'Mon-Sun: 10:00-23:00',
+		Phone: '+998712005400',
+	},
+	{
+		id: 'BERUNIY',
+		name: 'MAX WAY BERUNIY',
+		manzil: 'улица Беруни, 47, Ташкент',
+		vaqt: 'Closed until 10:00',
+		kun: 'Mon-Sun: 10:00-23:00',
+		Phone: '+998712005400',
+	},
+]

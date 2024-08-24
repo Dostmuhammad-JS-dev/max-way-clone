@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import Main from './components/main/Main'
+import { Menyu, Contacts, Branches, About } from './pages/Pages'
+import Karzinka from './pages/karzinka/Karzinka'
+import End from './components/end/End'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<BrowserRouter>
+			<div>
+				<Main></Main>
+			</div>
+			<div>
+				<Routes>
+					<Route path='/' element={<Menyu />} />
+					<Route path='/contacts' element={<Contacts />} />
+					<Route path='/branchs' element={<Branches />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/Karzinka' element={<Karzinka />} />
+				</Routes>
+			</div>
+			<End />
+		</BrowserRouter>
+	)
 }
 
-export default App;
+export default App
